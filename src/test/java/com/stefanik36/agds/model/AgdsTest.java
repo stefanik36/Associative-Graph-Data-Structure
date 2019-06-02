@@ -67,7 +67,6 @@ public class AgdsTest {
         agds.addObject("R5", List.of(6.0, 2.7, 5.1, 1.6, "VERSI"));
         agds.addObject("R6", List.of(6.7, 3.0, 5.0, 1.7, "VERSI"));
         agds.addObject("R7", List.of(5.9, 3.2, 4.8, 1.8, "VERSI"));
-
         agds.addObject("R8", List.of(6.0, 2.2, 5.0, 1.5, "VIRGIN"));
         agds.addObject("R9", List.of(4.9, 2.5, 4.5, 1.7, "VIRGIN"));
         agds.addObject("R10", List.of(6.0, 3.0, 4.8, 1.8, "VIRGIN"));
@@ -103,6 +102,5 @@ public class AgdsTest {
         assertEquals("R1", ((NodeObject) sortedResult.get(3).getFrom()).getName());
 
     }
-
 
 }

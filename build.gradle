@@ -25,6 +25,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile group: 'io.vavr', name: 'vavr', version: '0.10.0'
+
+    compile group: 'com.opencsv', name: 'opencsv', version: '4.5'
 }
 
 // In this section you declare where to find the dependencies of your project
