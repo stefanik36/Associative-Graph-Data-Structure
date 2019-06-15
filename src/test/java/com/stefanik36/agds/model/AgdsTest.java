@@ -10,6 +10,10 @@ import static org.junit.Assert.assertTrue;
 
 public class AgdsTest {
 
+    public static void main(String[] args) {
+        new AgdsTest().irisData01();
+    }
+
     @Test
     public void test01() {
         Agds agds = new Agds(List.of("sle", "swi", "ple", "pwi", "class"), SimilarityEndConditionType.NEVER);
@@ -32,7 +36,7 @@ public class AgdsTest {
         agds.addObject("R2", List.of(5.8, 2.6, 4.0, 1.2, "VERSI"));
         agds.addObject("R3", List.of(5.4, 3.0, 4.5, 1.5, "VERSI"));
 
-       assertEquals(22,agds.getNodes().size());
+        assertEquals(22, agds.getNodes().size());
     }
 
     @Test
